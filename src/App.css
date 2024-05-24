@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.Container
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+
+}
+
+.searchicon
+{
+  width: 15px;
+  margin-right: 5px;
+
+}
+.input-containe
+{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.search-bar
+{
+  display: flex;
+  align-items: center;
+  border: 5px solid rgb(152, 181, 255);
+  border-radius: 8px;
+}
+input
+{
+  width: 300px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.image
+{
+  text-align: center;
+}
+.image img{
+height: 150px;
+margin-bottom: 10px;
+}
+.temp ,.location,.country
+
+{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cord div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.humi img{
+  width: 50px;
+  margin: auto;
+}
+.wind img 
+{
+  margin: auto;
+  width: 45px;
+}
+.data
+{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding:10px 20px;
+}
+.humi,.wind{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+  /* border: 1px solid red; */
+}
+.lemi
+{
+  text-align: center;
+  margin: 10px 0px;
+}
+.lemi span{
+  color: rgb(172, 15, 234);
+}
+.loading-messgae,.error-message,.citynotfound
+{
+  text-align: center;
+  margin-top: 10px;
+}.location{
+  color: rgb(34, 122, 69);
+  font-weight: bolder;
+  font-size: larger;
+}
